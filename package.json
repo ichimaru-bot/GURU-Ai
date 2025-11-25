@@ -40,7 +40,7 @@
         "awesome-phonenumber": "^3.4.0",
         "axios": "^1.4.0",
         "baileys-pro": "github:nstar-y/bail",
-        "body-parser": "^2.2.0",
+        "body-parser": "^2.2.1",
         "chalk": "^5.1.0",
         "cheerio": "^1.0.0-rc.12",
         "dotenv": "^16.5.0",
