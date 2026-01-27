@@ -1,0 +1,26 @@
+{
+  "name": "guru-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guru322/GURU-Ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Guru322/GURU-Ai/issues"
+  },
+  "homepage": "https://github.com/Guru322/GURU-Ai#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "wa-sticker-formatter": "^4.4.4",
+    "zaileys": "^2.2.7"
+  }
+}
