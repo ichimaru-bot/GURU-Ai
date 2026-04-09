@@ -38,7 +38,7 @@
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "awesome-phonenumber": "^3.4.0",
-        "axios": "^1.4.0",
+        "axios": "^1.15.0",
         "baileys-pro": "github:nstar-y/bail",
         "body-parser": "^2.2.0",
         "chalk": "^5.1.0",
