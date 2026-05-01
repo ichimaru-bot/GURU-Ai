@@ -6,7 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
+// التعديل هنا: وضعنا رقمك مباشرة وفعلنا وضع الكود
+global.pairingNumber = "584163272188" 
+global.pairingMode = true 
+
+const ownervb = process.env.OWNERS || "584163272188;ICHIMARU"
 
 const ownerlist = ownervb.split(';');
 
@@ -20,13 +24,13 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     global.owner.push(owner);
 }
 
-global.mods = ['917605902011', '32460248586']
-global.allowed = ['917605902011', '32460248586', '19152999993']
+global.mods = ['584163272188']
+global.allowed = ['584163272188']
 
 // Sticker WM
-global.botname = process.env.BOTNAME
+global.botname = "GURU-Ai"
 global.packname = 'GURU┃ᴮᴼᵀ'
-global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
+global.author = '𝕴𝖈𝖍𝖎𝖒𝖆𝖗𝖚'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 // Status indicators
